@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarot da Mikaelle</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<!-- SEO e Social Sharing -->
+    <meta property="og:title" content="Tarot da Mikaelle">
+    <meta property="og:description" content="Faça sua pergunta para as cartas.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/1liich/tarot-mikaelle/refs/heads/main/images/share.png">
+    <meta property="og:url" content="https://raw.githubusercontent.com/1liich/tarot-mikaelle/refs/heads/main/images/share.png">
+    <meta property="og:type" content="website">
+
+<!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tarot da Mikaelle">
+    <meta name="twitter:description" content="Faça uma leitura completa de tarot com 3 cartas — passado, presente e futuro.">
+     <meta name="twitter:image" content="https://raw.githubusercontent.com/1liich/tarot-mikaelle/refs/heads/main/images/share.png">
+
 
     <style>
         body {
@@ -685,7 +698,7 @@
         function validateQuestion() {
             const question = document.getElementById('question').value.trim();
             if (!question) {
-                alert('Por favor, escreva sua pergunta primeiro antes de selecionar uma carta.');
+                alert('Por favor, escreva sua pergunta primeiro antes de selecionar uma.');
                 return false;
             }
             return true;
